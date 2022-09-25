@@ -1,0 +1,102 @@
+/* stili pagina */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+}
+
+.introduzione {
+  padding: 1em;
+  background: linear-gradient(rgba(45, 91, 229, .4), rgba(45, 91, 229, .01));
+}
+
+.introduzione div.container {
+  max-width: 85ch;
+}
+
+.contenuto,
+.introduzione .container {
+  max-width: 70ch;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.6rem;
+}
+
+
+/* citazione */
+
+.citazione {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.citazione__blocco {
+  padding: 1.5em;
+  background-color: whitesmoke;
+  background-image: url("sfondo-stelle.jpg");
+  background-size: cover;
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+
+/* illustrazione */
+
+.illustrazione img {
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px black solid;
+  padding: 20px;
+  min-width: 250px;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+
+
+/* tipografia */
+
+
+/* titoli */
+
+.titolo-articolo {
+  color: #933956;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+h2 {
+  color: darkred;
+}
+
+h3 {
+  font-style: italic;
+  color: blue;
+}
+
+
+/* testo */
+
+p {
+  color: dimgray;
+}
+
+.container p {
+  color: black;
+  font-size: 1.8rem;
+}
+
+.citazione__blocco p {
+  color: white;
+}
+
+.caption-illustrazione p {
+  color: black;
+}
+
+.caption-illustrazione {
+  font-style: italic;
+}
